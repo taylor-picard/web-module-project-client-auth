@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+  float: left;
+}
+
+nav {
+  text-align: right;
+  float: right;
+}
+
+.link {
+  padding: 1rem;
+  border: .5rem white solid;
+  fill: black;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
